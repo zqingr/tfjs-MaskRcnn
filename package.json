@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "dev": "rollup src/index.js --config rollup.config.js --watch",
+    "build": "rollup src/index.js --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "postcss": "^8.4.13",
+    "prettier": "1.19.1",
+    "rollup": "^2.60.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "stylelint": "^9.3.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-backend-webgl": "^3.18.0",
+    "@tensorflow/tfjs-core": "^3.18.0",
+    "@tensorflow/tfjs-layers": "^3.18.0",
+    "crypto": "^1.0.1"
+  }
+}

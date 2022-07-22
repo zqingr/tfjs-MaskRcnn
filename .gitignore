@@ -1,0 +1,14 @@
+!README.md
+!project/*
+.DS_Store
+.idea/
+.log
+.moduleTemp/
+.temp/
+Info.json
+deploy_versions/
+dist/
+jsconfig.json
+mini.project.json
+node_modules/
+python-version/
